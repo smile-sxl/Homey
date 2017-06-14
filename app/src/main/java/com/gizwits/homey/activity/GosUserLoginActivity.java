@@ -60,6 +60,7 @@ public class GosUserLoginActivity extends GosUserModuleBaseActivity implements V
 
 		setContentView(R.layout.activity_gos_user_login);
 		initView();
+		Toast.makeText(this,"zhende",3000).show;
 		initEvent();
 	}
 
