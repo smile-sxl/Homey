@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<animation-list xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:variablePadding="true">-->
+    <!--<item android:duration="100">-->
+        <!--<clip xmlns:android="http://schemas.android.com/apk/res/android"-->
+            <!--android:clipOrientation="horizontal"-->
+            <!--android:drawable="@mipmap/loading_1"-->
+            <!--android:gravity="left"></clip>-->
+    <!--</item>-->
+    <!--<item android:duration="100">-->
+        <!--<clip xmlns:android="http://schemas.android.com/apk/res/android"-->
+            <!--android:clipOrientation="horizontal"-->
+            <!--android:drawable="@mipmap/loading_2"-->
+            <!--android:gravity="left"></clip>-->
+    <!--</item>-->
+    <!--<item android:duration="100">-->
+        <!--<clip xmlns:android="http://schemas.android.com/apk/res/android"-->
+            <!--android:clipOrientation="horizontal"-->
+            <!--android:drawable="@mipmap/loading_3"-->
+            <!--android:gravity="left"></clip>-->
+    <!--</item>-->
+    <!--<item android:duration="100">-->
+        <!--<clip xmlns:android="http://schemas.android.com/apk/res/android"-->
+            <!--android:clipOrientation="horizontal"-->
+            <!--android:drawable="@mipmap/loading_4"-->
+            <!--android:gravity="left"></clip>-->
+    <!--</item>-->
+    <!--<item android:duration="100">-->
+        <!--<clip xmlns:android="http://schemas.android.com/apk/res/android"-->
+            <!--android:clipOrientation="horizontal"-->
+            <!--android:drawable="@mipmap/loading_5"-->
+            <!--android:gravity="left"></clip>-->
+    <!--</item>-->
+    <!--<item android:duration="100">-->
+        <!--<clip xmlns:android="http://schemas.android.com/apk/res/android"-->
+            <!--android:clipOrientation="horizontal"-->
+            <!--android:drawable="@mipmap/loading_6"-->
+            <!--android:gravity="left"></clip>-->
+    <!--</item>-->
+    <!--<item android:duration="100">-->
+        <!--<clip xmlns:android="http://schemas.android.com/apk/res/android"-->
+            <!--android:clipOrientation="horizontal"-->
+            <!--android:drawable="@mipmap/loading_7"-->
+            <!--android:gravity="left"></clip>-->
+    <!--</item>-->
+    <!--<item android:duration="100">-->
+        <!--<clip xmlns:android="http://schemas.android.com/apk/res/android"-->
+            <!--android:clipOrientation="horizontal"-->
+            <!--android:drawable="@mipmap/loading_8"-->
+            <!--android:gravity="left"></clip>-->
+    <!--</item>-->
+    <!--<item android:duration="100">-->
+        <!--<clip xmlns:android="http://schemas.android.com/apk/res/android"-->
+            <!--android:clipOrientation="horizontal"-->
+            <!--android:drawable="@mipmap/loading_9"-->
+            <!--android:gravity="left"></clip>-->
+    <!--</item>-->
+    <!--<item android:duration="100">-->
+        <!--<clip xmlns:android="http://schemas.android.com/apk/res/android"-->
+            <!--android:clipOrientation="horizontal"-->
+            <!--android:drawable="@mipmap/loading_10"-->
+            <!--android:gravity="left"></clip>-->
+    <!--</item>-->
+    <!--<item android:duration="100">-->
+        <!--<clip xmlns:android="http://schemas.android.com/apk/res/android"-->
+            <!--android:clipOrientation="horizontal"-->
+            <!--android:drawable="@mipmap/loading_11"-->
+            <!--android:gravity="left"></clip>-->
+    <!--</item>-->
+    <!--<item android:duration="100">-->
+        <!--<clip xmlns:android="http://schemas.android.com/apk/res/android"-->
+            <!--android:clipOrientation="horizontal"-->
+            <!--android:drawable="@mipmap/loading_12"-->
+            <!--android:gravity="left"></clip>-->
+    <!--</item>-->
+
+
+<!--</animation-list>-->
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+android:variablePadding="true">
+<item android:duration="150">
+    <clip xmlns:android="http://schemas.android.com/apk/res/android"
+        android:clipOrientation="horizontal"
+        android:drawable="@mipmap/loading_01"
+        android:gravity="left"></clip>
+</item>
+<item android:duration="150">
+    <clip xmlns:android="http://schemas.android.com/apk/res/android"
+        android:clipOrientation="horizontal"
+        android:drawable="@mipmap/loading_02"
+        android:gravity="left"></clip>
+</item>
+<item android:duration="150">
+    <clip xmlns:android="http://schemas.android.com/apk/res/android"
+        android:clipOrientation="horizontal"
+        android:drawable="@mipmap/loading_03"
+        android:gravity="left"></clip>
+</item>
+<item android:duration="150">
+    <clip xmlns:android="http://schemas.android.com/apk/res/android"
+        android:clipOrientation="horizontal"
+        android:drawable="@mipmap/loading_04"
+        android:gravity="left"></clip>
+</item>
+<item android:duration="150">
+    <clip xmlns:android="http://schemas.android.com/apk/res/android"
+        android:clipOrientation="horizontal"
+        android:drawable="@mipmap/loading_05"
+        android:gravity="left"></clip>
+</item>
+<item android:duration="150">
+    <clip xmlns:android="http://schemas.android.com/apk/res/android"
+        android:clipOrientation="horizontal"
+        android:drawable="@mipmap/loading_06"
+        android:gravity="left"></clip>
+</item>
+<item android:duration="150">
+    <clip xmlns:android="http://schemas.android.com/apk/res/android"
+        android:clipOrientation="horizontal"
+        android:drawable="@mipmap/loading_07"
+        android:gravity="left"></clip>
+</item>
+
+</animation-list>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="@color/yellow">
+
+        <LinearLayout
+            android:id="@+id/contral_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="20sp"
+                android:text="@string/back" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="智能锁"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+    <com.gizwits.homey.view.CustomViewPager
+        android:id="@+id/contral_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        >
+
+    </com.gizwits.homey.view.CustomViewPager>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#B7B7B7"/>
+    <RadioGroup
+        android:id="@+id/control_radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        >
+        <!--  android:drawableTop="@drawable/btn_tab_gov_selector"   -->
+        <RadioButton
+            android:id="@+id/rb_control"
+            style="@style/btn_tab_style"
+            android:text="@string/control"
+            android:checked="true"
+            android:drawableTop="@mipmap/www"
+            />
+        <RadioButton
+            android:id="@+id/rb_record"
+            style="@style/btn_tab_style"
+            android:text="@string/record"
+
+            android:drawableTop="@mipmap/www"/>
+        <RadioButton
+            android:id="@+id/rb_user"
+            style="@style/btn_tab_style"
+            android:drawableTop="@mipmap/www"
+            android:text="@string/user" />
+    </RadioGroup>
+
+</LinearLayout>

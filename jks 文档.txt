@@ -1,0 +1,3 @@
+key store password:123456
+key alias:key
+key pass:123456
